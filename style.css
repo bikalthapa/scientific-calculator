@@ -1,0 +1,84 @@
+
+#del{
+    background: linear-gradient(180deg, #c54032, #f8a5cc);
+    box-shadow:10px 10px 10px rgba(17, 16, 16, 0.508);
+    border-radius:7px;
+    color:white;
+    min-width:50px;
+    
+}
+#del::before{
+    content: '';
+    position:absolute;
+    top:3px;
+    left:4px;
+    bottom:14px;
+    right:12px;
+    background:linear-gradient(90deg, #232323 , #4a4a4a);
+    box-shadow:rgb(144, 197, 213)
+}
+
+body{
+    background-color:lightcyan;
+    margin:30px;
+    text-align:center;
+}
+.maindiv{
+    background-color:rgb(51, 51, 77);
+    padding:10px;
+    border-style:solid;
+    max-width:360px;
+    text-align:center;
+    margin:0px auto;
+    border-radius:10px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.508);
+}
+
+
+#input{
+    padding:10px;
+    font-family:alarm clock;
+    font-size:28px;
+    text-align:right;
+    background-color:rgb(177, 177, 82);
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.508);
+    border-radius:7px; 
+    max-width:265px;    
+}
+
+input{
+    font-size:28px;
+    padding:10px;
+}
+input:hover{
+    background-color:rgb(144, 197, 213);
+   
+}
+#key{
+    min-height: 30px;
+    background: linear-gradient(180deg, #1d1a1a, #807a7d);
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.508);
+    border-radius:7px;  
+    color:white;
+    min-width:50px;
+    
+}
+#key1{
+    background: linear-gradient(180deg, #0a7fdf77, #43ac89);
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.508);
+    border-radius:7px; 
+    color:white;
+    min-width:50px
+}
+h1{
+    color:white;
+}
+#key2{
+    min-height: 58px;
+    background: linear-gradient(180deg, #1d1a1a, #807a7d);
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.508);
+    border-radius:7px;  
+    color:white;
+    min-width:50px; 
+    margin-top:5px;
+}
